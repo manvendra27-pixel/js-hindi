@@ -1,6 +1,6 @@
  "user strict"; //treat all js code as newer version 
 
- // alert("hello"); we are using node js not browsers
+//  alert("hello"); we are using node js not browsers
 
  console.log (3 + 3) // code readability should be high 
 
@@ -20,6 +20,7 @@
 // symbol -> to find the uniqueness
 
 //object (very important)
+console.log(typeof false);
 
 console.log (typeof null); //objects
 console.log (typeof undefined); //undefined

@@ -1,9 +1,9 @@
-let score = undefined;
+// let score = undefined;
 
 // console.log(typeof score);
 // console.log(typeof (score));
 
-let valueInNumber = Number(score);
+// let valueInNumber = Number(score);
 // console.log(typeof valueInNumber);
 // console.log( valueInNumber);
 
@@ -23,9 +23,27 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 // console.log(booleanIsLoggedIn)
 
 // 1 -> boolean : true; 0 -> boolean : false; 
-// "" -> boolean: 0 ; "Manav" -> boolean : true
+// "" -> boolean: false ; "Manav" -> boolean : true
 
 let sumNumber = 22;
 let isStringConversion = String(sumNumber);
- console.log(typeof isStringConversion);
- console.log(isStringConversion);
+//  console.log(typeof isStringConversion);
+//  console.log(isStringConversion);
+
+ //Date :- 15-12-2025
+
+ let score = "manab";
+ console.log(typeof score);
+ console.log(typeof (score));
+
+ let valueInNumber = Number(score);
+ console.log(typeof (valueInNumber) + " " +valueInNumber);
+
+ let sum = 33;
+
+ let stringNumber = String(sum);
+ console.log(typeof (stringNumber) + " " + stringNumber);
+ 
+
+ 
+ 

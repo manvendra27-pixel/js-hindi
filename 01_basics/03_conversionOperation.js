@@ -33,16 +33,47 @@ let isStringConversion = String(sumNumber);
  //Date :- 15-12-2025
 
  let score = "manab";
- console.log(typeof score);
- console.log(typeof (score));
+//  console.log(typeof score);
+//  console.log(typeof (score));
 
  let valueInNumber = Number(score);
- console.log(typeof (valueInNumber) + " " +valueInNumber);
+//  console.log(typeof (valueInNumber) + " " +valueInNumber);
 
  let sum = 33;
 
  let stringNumber = String(sum);
- console.log(typeof (stringNumber) + " " + stringNumber);
+//  console.log(typeof (stringNumber) + " " + stringNumber);
+
+
+ // ****************** Operations *********************
+
+ let value = 33;
+ let negValue = -value;
+//  console.log(negValue);
+
+//  console.log(3**2);
+
+let str1 = "Hello";
+let str2 = " Manav";
+let str3 = str1 + str2;
+
+// console.log(str1);
+// console.log(str2);
+// console.log(str3);
+// console.log(typeof (str2));
+// console.log(typeof (str3));
+
+console.log("2" + 1);
+console.log(2 + "1");
+console.log(2 + "1" + 3);
+console.log(2 + 1 + "3");
+
+
+
+
+ 
+ 
+
  
 
  

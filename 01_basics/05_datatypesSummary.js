@@ -42,3 +42,33 @@ console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 console.log(typeof myfunction);
 console.log(typeof heros);
+
+//**************** Stcak and Heap Memory ****************
+
+//in js just like datatypes are of two types (primitive) and (non primitive)---memory is of two types (Stcak) and (Heap)
+// stack :- that use to stores all primitive types 
+// heap :- that use to stores all non-primitive types 
+
+// Whenever stack memory is used, it means you get a copy of whatever variable you declared.
+//And whenever a memory is defined within the heap, whether an object or anything else, you get a reference to it from there, meaning the changes are to the original values.
+// Example: 
+ let myName = "Manvendra singh"
+
+ let anotherName = "myName"
+
+ console.log(myName);
+ console.log(anotherName);
+
+ let user_1 = {
+    email: "abc@gmail.com",
+    upiID: "user@sbi"
+ }
+
+ let user_2 = user_1
+
+ user_2.email = "pqr@gmail.com"
+
+ console.log(user_1.email);
+ console.log(user_2.email);
+ 
+ 

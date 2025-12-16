@@ -37,6 +37,8 @@ console.log(address.includes('123'));
 
 console.log(address.split(','))
 
+//****************** Go through all other string functions ******************
+
 
 
 

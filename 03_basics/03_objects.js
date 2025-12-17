@@ -16,9 +16,9 @@ console.log(teacher);
 
 // jason: javascript object notation
 {   // object jason
-    'name': 'manav',
-    'age': 29,
-    'loggedin': true,
+    // 'name': 'manav',
+    // 'age': 29,
+    // 'loggedin': true,
 
 }
 

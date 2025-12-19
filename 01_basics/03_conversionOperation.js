@@ -1,11 +1,11 @@
-// let score = undefined;
+// let score = undefined;  already used at down
 
 // console.log(typeof score);
 // console.log(typeof (score));
 
 // let valueInNumber = Number(score);
-// console.log(typeof valueInNumber);
-// console.log( valueInNumber);
+// console.log(typeof valueInNumber);  //output: number it converts into number 
+// console.log( valueInNumber);  // but the value is Not a Number (NaN)
 
 
 // "33" -> 33 (number)
@@ -15,7 +15,7 @@
 // null -> 0
 // true or false -> 1 or 0  but the type of these variables are same as we convertin into number 
 
-let isLoggedIn = "Manav";
+let isLoggedIn = " ";
 let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 // console.log(typeof isLoggedIn);
@@ -32,11 +32,11 @@ let isStringConversion = String(sumNumber);
 
  //Date :- 15-12-2025
 
- let score = "manab";
+ let score = "manav";
 //  console.log(typeof score);
 //  console.log(typeof (score));
 
- let valueInNumber = Number(score);
+//  let valueInNumber = Number(score);
 //  console.log(typeof (valueInNumber) + " " +valueInNumber);
 
  let sum = 33;
@@ -63,10 +63,10 @@ let str3 = str1 + str2;
 // console.log(typeof (str2));
 // console.log(typeof (str3));
 
-console.log("2" + 1);
-console.log(2 + "1");
-console.log(2 + "1" + 3);
-console.log(2 + 1 + "3");
+// console.log("2" + 1);
+// console.log(2 + "1");
+// console.log(2 + "1" + 3);
+// console.log(2 + 1 + "3");
 
 
 

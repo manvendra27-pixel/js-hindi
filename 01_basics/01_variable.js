@@ -5,7 +5,7 @@ account_City = "Noida"; //possible but not suggested
 
 let account_state;
 
-// account_Id = 123; not allowed
+// account_Id = 123; not allowed  js mistake
 
 console.log(account_Id);
 
@@ -20,7 +20,7 @@ console.table ([account_Id, accoount_Email, account_Password, account_City, acco
 
 /* 
     Prefer not to use var as variable declare
-    because in the issue of block scope and functional scope.
+    because in the issue of block scope and functional scope. because scope does not folow scope and block
 */
 
 
